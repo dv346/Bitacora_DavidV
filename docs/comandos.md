@@ -1,14 +1,14 @@
-# Encabezados
+# Mis notas de clase
 
 ``` codigo
-# Título H1
-## Título H2
+# Conceptos
+## Notas de programacion
 ### Título H3
 ```
 
 # Título H1
 ## Título H2
-### Título H3
+### Título H3d
 
 ---
 
