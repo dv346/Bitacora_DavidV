@@ -1,74 +1,24 @@
-# 📚 Ejemplo de Documentación del Proyecto
+# 👨‍💻 Sobre Mí
 
-> Plantilla genérica para documentar proyectos académicos o de ingeniería.  
-> Copia y adapta las secciones según tu necesidad.
-
----
-
-## 1) Resumen
-
-- **Nombre del proyecto:** _Mi Proyecto_  
-- **Equipo / Autor(es):** _Nombre(s)_  
-- **Curso / Asignatura:** _Nombre del curso_  
-- **Fecha:** _DD/MM/AAAA_  
-- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
-
-!!! tip "Consejo"
-    Mantén este resumen corto (máx. 5 líneas). Lo demás va en secciones específicas.
+¡Hola! En esta sección te cuento un poco más sobre quién soy, acerca de porque decidi estudiar ingenieria Mecatronica y tambien acerca de mis hobbies y mis metas y lo que quiero lograr durante la carrera .
 
 ---
 
-## 2) Objetivos
-
-- **General:** _Qué se pretende lograr en términos amplios._
-- **Específicos:**
-  - _OE1…_
-  - _OE2…_
-  - _OE3…_
-
-## 3) Alcance y Exclusiones
-
-- **Incluye:** _Qué funcionalidades/entregables sí están en el proyecto._
-- **No incluye:** _Qué queda fuera para evitar malentendidos._
+## 🎓 ¿Por qué elegí mi carrera?
+* **La razón principal:** A mi desde hace un par de años me ha gustado mucho las Matematicas y las ciencias en general y el como aplicarlo en la vida real, desde adolescente he sido muy curioso, me gusta saber el porque de las cosas o el porque funcionan, mi clase favorita de la secundaria fue Fisica y de la prepa probablemente fue Geometria Analitica y Calculo 
+* **Lo que más me motiva:** Lo que mas me motiva es ser mejor persona y mejorar mucho en mis habilidades y tambien eventualmente ser independiente. 
 
 ---
 
-## 4) Requisitos
+## 🎯 Mis Áreas de Interés y Gustos
+Dentro del mundo de la ingeniería y la tecnología, estas son las áreas que más llaman mi atención:
 
-**Software**
-- _SO compatible (Windows/Linux/macOS)_
-- _Python 3.x / Node 18+ / Arduino IDE / etc._
-- _Dependencias (p. ej., pip/requirements, npm packages)_
-
-**Hardware (si aplica)**
-- _MCU / Sensores / Actuadores / Fuente de poder_
-- _Herramientas (multímetro, cautín, etc.)_
-
-**Conocimientos previos**
-- _Programación básica en X_
-- _Electrónica básica_
-- _Git/GitHub_
+* **Matematicas:** Estudiar con libros y incluso tener idea de las demostraciones o saber demostrar.
+* **Mis pasatiempos:** Ver peliculas y series, tambien algunas veces libros, mi serie favorita es Doctor who y pelicula no tengo, muchas me gustan.
+* **Software o programas:** Me gusta el dibujo por computadora, en la prepa aprendi a hacer piezas en 3D y planos, ensambles. 
 
 ---
 
-## 5) Instalación
-
-```bash
-# 1) Clonar
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
-
-# 2) (Opcional) Crear entorno virtual
-python -m venv .venv
-# macOS/Linux
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
-
-# 3) Instalar dependencias (ejemplos)
-pip install -r requirements.txt
-# o, si es Node:
-npm install
-
-
-```
+## 🚀 Metas Académicas y Profesionales
+* **A corto plazo:** Tener disciplina en la escuela y en el gimnasio y dejar de procrastinar tanto, tambienn ser mas productivo. 
+* **A largo plazo:** Especializarme en Electronica o Mecanica, o realmente en un area que me guste, todavia no se que area me gusta, pero eventualmente podre encontrar que me gusta. 
