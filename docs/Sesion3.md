@@ -134,9 +134,7 @@ void loop()
   delay(1000);
 }
 ```
-
 ![Circuito físico](recursos/imgs/Sesion 3.png)
-
 
 [▶️ Ver video del circuito y servomotor en funcionamiento en YouTube](https://youtu.be/1D5kelYyCuQ?si=hd1ZztO4-_cKGVOp)
 
