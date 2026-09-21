@@ -55,14 +55,13 @@ void loop() {
   }
 }
 ```
+
 ![Circuito físico en el protoboard](recursos/imgs/MCU_Sesion_2_(2).png)
+
 
 ## Qué falló y cómo lo resolví
 - **Síntoma:** El circuito y el código estaban bien, pero el Bluetooth de la ESP32 (con nombre "pes") no aparecía en la lista de dispositivos del celular.
 - **Cómo lo encontré:** Al abrir la aplicación de terminal Bluetooth en el teléfono y escanear los dispositivos cercanos, la placa no figuraba.
 - **Solución:** En la clase no funciono.No pudimos resolverlo al momento porque el tiempo de la clase se termino, por lo que el LED no prendió.
-
-
-
 ## Qué aprendí
 *Aprendi como usar el software de "arduino IDE" y hacer codigo con ese programa tambien el como conectarlo con el arduino que teniamos*
