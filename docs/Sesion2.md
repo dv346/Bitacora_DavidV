@@ -24,8 +24,37 @@ Software:
 
 ## Qué hice y qué pasó (evidencia)
 
-![Código en Arduino IDE](recursos/imgs/MCU_Sesion_2.png)
+### Código Fuente del Programa (Control Bluetooth)
 
+```cpp
+#include "BluetoothSerial.h"
+
+// Objeto es una variable que guarda datos y acciones
+BluetoothSerial Mi_tel;
+
+void setup() {
+  // put your setup code here, to run once:
+  Mi_tel.begin("pes");
+  Mi_tel.setTimeout(20);
+  Serial.begin(9600);
+  pinMode(25, INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  if(Mi_tel.available()){
+    String mensaje = Mi_tel.readStringUntil('\n');
+    mensaje.trim();
+    if(mensaje == "ON"){
+      digitalWrite(32, HIGH);
+    }
+    if(mensaje == "OFF"){
+      digitalWrite(32, LOW);
+    }
+  }
+}
+```
 ![Circuito físico en el protoboard](recursos/imgs/MCU_Sesion_2_(2).png)
 
 ## Qué falló y cómo lo resolví
