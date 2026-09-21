@@ -37,5 +37,3 @@ Software:
 
 ## Qué aprendí
 *Aprendi como usar el software de "arduino IDE" y hacer codigo con ese programa tambien el como conectarlo con el arduino que teniamos*
-
-

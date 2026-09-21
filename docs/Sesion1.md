@@ -16,9 +16,9 @@ Qué usé
 - Led
 - Una resistencia 
 
-![Circuito físico en el protoboard](./recursos/imgs/Electronica, Sesion 1.png)
+![Circuito físico en el protoboard](recursos/imgs/Sesion 1.png)
 
-![Circuito físico en el protoboard](./recursos/imgs/Sesion 1.png)
+
 
 [▶️ Ver video del circuito en funcionamiento](https://youtube.com/shorts/t93F0X8Y648?si=J8DNC3yvFRndBoM-)
 
