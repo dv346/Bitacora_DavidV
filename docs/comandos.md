@@ -1,4 +1,4 @@
-# Mis notas de clase
+# Mi bitacora de trabajos
 
 ``` codigo
 # Conceptos
