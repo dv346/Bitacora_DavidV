@@ -248,7 +248,7 @@ Por qué fue útil: Resultó fundamental para establecer la comunicación inalá
 
 Demostracion del carro 
 
-[![Video](https://youtu.be/C-xD1128h-s?si=YFH2PDUerRXjqNBR)
+![Video](https://youtu.be/C-xD1128h-s?si=YFH2PDUerRXjqNBR)
 
 ![Proyecto](recursos/imgs/Resultado.png)
 
