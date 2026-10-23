@@ -13,6 +13,14 @@ Sesion 7
 
 ![Proyecto](recursos/imgs/Diagrama de bloques.png)
 
+### Boceto del chasis
+
+![Proyecto](recursos/imgs/Chasis_boceto.png)
+
+![Proyecto](recursos/imgs/Chasis_boceto_2.png)
+
+Se planea usar el chasis, pero, no teniamos mucha idea de que es la impresion 3D, pero, en caso de que no podamos imprimirlo, le pedimos ayuda a alguien, ya que no teniamos tanta experiencia por ser estudiantes de primer semestre. 
+
 ---
 ### Plan por semanas y criterios de exito
 
@@ -50,11 +58,12 @@ Al encontrarnos cursando el primer semestre, el dominio de la programación y la
 
 Solución: Se contó con el apoyo de Oliver, quien orientó al equipo para estructurar las bases lógicas y dar inicio al desarrollo del código de control.
 
-Durante las pruebas del sistema electrónico, se registró un error al suministrar un nivel de voltaje superior al soportado por el dispositivo, lo que provocó que se quemara una placa ESP32.
+Durante las pruebas del sistema electrónico, se registró un error al suministrar un nivel de voltaje superior al soportado 
+por el dispositivo, lo que provocó que se quemara una placa ESP32.
 
 Solucion: Se reemplazó el componente afectado y se establecieron mayores precauciones en la revisión de las líneas de alimentación y fuentes de energía antes de realizar futuras conexiones.
 
-![Proyecto](recursos/imgs/Circuito.png)
+![Proyecto](recursos/imgs/Circuito .png)
 
 Placa Arduino Uno: Ubicada a la izquierda, actúa como el cerebro del sistema. Gestiona la lógica de control y se comunica mediante cables hacia el circuito integrado. Tiene conectado un cable USB en la parte superior.
 
@@ -65,6 +74,14 @@ Batería de 9V: Situada en la parte inferior derecha, proporciona la fuente de a
 Motores de corriente directa (DC): Los dos pequeños motores con engranajes amarillos ubicados en la esquina inferior izquierda, los cuales se conectan a las salidas del circuito integrado para la tracción del carrito.
 
 Cableado verde: Todas las conexiones de señal, alimentación y tierra que interconectan los pines digitales/PWM del Arduino con los canales de entrada/salida del L293D, la alimentación de la batería y las terminales de los motores.
+
+![Proyecto](recursos/imgs/Carro.png)
+
+El carro ya funcionaba, con los motores y todo, pero el chasis todavia no estaba terminado, eso fue lo ultimo que nos falto.
+ 
+Sesion 10
+
+
 
 El codigo
 ```cpp
@@ -223,7 +240,16 @@ void loop() {
 }
 ```
 
-Sesion 10
+Este codigo fue para el ESP32 gestiona el control inalámbrico por Bluetooth de un carrito robot de dos motores DC mediante modulación por ancho de pulso (PWM).
 
+Funcionamiento: Configura el microcontrolador como un dispositivo Bluetooth esclavo (IronCar) que escucha comandos de caracteres enviados desde una aplicación móvil. Dependiendo de la letra o número recibido, ejecuta rutinas de movimiento (avanzar, retroceder, giros en su propio eje o diagonales) y ajusta de manera dinámica la velocidad de los motores.
 
-Carro funcional:
+Por qué fue útil: Resultó fundamental para establecer la comunicación inalámbrica en tiempo real y lograr un control preciso de la velocidad y dirección del vehículo, permitiendo un manejo fluido y estable del carrito.
+
+Demostracion del carro 
+
+[![Video](https://youtu.be/C-xD1128h-s?si=YFH2PDUerRXjqNBR)
+
+![Proyecto](recursos/imgs/Resultado.png)
+
+Este fue el resultado final, el chasis fue hecho a tiempo y el carrito si destaco en el torneo
