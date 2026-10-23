@@ -1,6 +1,6 @@
 ---
 titulo: Mecanismos 
-fecha: 8-10-2026
+fecha: 18-09-2026
 autor: "David"
 estado: completa
 ---
@@ -14,7 +14,7 @@ Qué usé
 - Libreta
 - Pluma 
 
-Primer mecanismo 
+### Primer mecanismo 
 ![Circuito físico en el protoboard](recursos/imgs/Mecanismo 1.png)
 
 * **Descripción:** Es un reductor de velocidad epicicloidal que utiliza un disco con perfil de curva cicloidal en lugar de engranajes con dientes convencionales.
@@ -114,4 +114,3 @@ Segundo mecanismo
 * **¿Dónde lo has visto en la vida real?** En mandriles o chucks de tornos mecánicos (para abrir y cerrar las garras simultáneamente), mecanismos de ajuste en herramientas y calibradores de precisión.
 * **Aplicación práctica:**
   * *En un proyecto personal:* En una pinza o sujetador automático para un robot, donde al girar el disco o las garras se cierran o abren de forma centrada para agarrar objetos.
-  
