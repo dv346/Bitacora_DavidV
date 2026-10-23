@@ -1,0 +1,972 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Sesion3/">
+      
+      
+        <link rel="next" href="../Sesion5/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Sesión 4 — Mecanismos - Plantilla para Documentación</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sesion-4-mecanismos" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Plantilla para Documentación" class="md-header__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Plantilla para Documentación
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sesión 4 — Mecanismos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Plantilla para Documentación" class="md-nav__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Plantilla para Documentación
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentación del Proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Proyecto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sesion1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesión 1 — Electronica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sesion2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesión 2— MCU
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sesion3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesión 3 -Actuadores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesión 4 — Mecanismos
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesión 4 — Mecanismos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-debia-lograr-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué debía lograr hoy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qué debía lograr hoy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primer-mecanismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Primer mecanismo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#segundo-mecanismo-tornillo-sin-fin-y-corona-worm-wormwheel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Segundo mecanismo: Tornillo Sin Fin y Corona (Worm &amp; Wormwheel)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quinto-mecanismo-rueda-de-ginebra-o-cruz-de-malta-geneva-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quinto mecanismo: Rueda de Ginebra o Cruz de Malta (Geneva Drive)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sexto-mecanismo-obturador-de-iris-o-mecanismo-de-diafragma-aperture-iris-shutter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sexto mecanismo: Obturador de Iris o Mecanismo de Diafragma (Aperture / Iris Shutter)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#octavo-mecanismo-mecanismo-de-espiral-o-leva-en-espiral-spiral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Octavo mecanismo: Mecanismo de Espiral o Leva en Espiral (Spiral)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sesion5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sesión 5 — vision 101
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comandos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mi bitacora de trabajos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ejemplo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sobre Mí
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitcmds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🚀 Comandos básicos de Git (primeros pasos)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mi trabajo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mi trabajo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mi%20trabajo/mi-presentacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mi presentacion
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-debia-lograr-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Qué debía lograr hoy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qué debía lograr hoy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primer-mecanismo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Primer mecanismo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#segundo-mecanismo-tornillo-sin-fin-y-corona-worm-wormwheel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Segundo mecanismo: Tornillo Sin Fin y Corona (Worm &amp; Wormwheel)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quinto-mecanismo-rueda-de-ginebra-o-cruz-de-malta-geneva-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quinto mecanismo: Rueda de Ginebra o Cruz de Malta (Geneva Drive)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sexto-mecanismo-obturador-de-iris-o-mecanismo-de-diafragma-aperture-iris-shutter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sexto mecanismo: Obturador de Iris o Mecanismo de Diafragma (Aperture / Iris Shutter)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#octavo-mecanismo-mecanismo-de-espiral-o-leva-en-espiral-spiral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Octavo mecanismo: Mecanismo de Espiral o Leva en Espiral (Spiral)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="sesion-4-mecanismos">Sesión 4 — Mecanismos</h1>
+<h2 id="que-debia-lograr-hoy">Qué debía lograr hoy</h2>
+<p>Objetivo: Entender cómo los mecanismos transforman el movimiento (velocidad ↔ par, rotación ↔ traslación, continuo ↔ intermitente), calcular relaciones de transmisión simples y aplicarlo al tren motriz del carro — tocando mecanismos reales en un taller de estaciones.</p>
+<p>Qué usé</p>
+<ul>
+<li>Libreta</li>
+<li>Pluma </li>
+</ul>
+<h3 id="primer-mecanismo">Primer mecanismo</h3>
+<p><img alt="Circuito físico en el protoboard" src="../recursos/imgs/Mecanismo%201.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Es un reductor de velocidad epicicloidal que utiliza un disco con perfil de curva cicloidal en lugar de engranajes con dientes convencionales.</li>
+<li><strong>¿Qué transforma?</strong> <strong>Velocidad $\leftrightarrow$ Par (Torque):</strong> Convierte la alta velocidad y bajo torque del eje de entrada en una baja velocidad de salida con un torque sumamente elevado.</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>10 : 1</strong></li>
+<li><em>Cálculo:</em> $i = \frac{P - L}{L} = \frac{11 - 10}{10} = \frac{1}{10}$ (donde $P = 11$ pernos exteriores fijos y $L = 10$ lóbulos en el disco azul).</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Autobloqueante</strong> (la excentricidad del eje y la alta fricción impiden que la fuerza ejercida desde la salida mueva el motor de entrada).</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En las articulaciones de brazos robóticos industriales y actuadores de precisión.</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En el carro:</em> En el motor de dirección asistida o en sistemas de elevación de cristales de gran fuerza.</li>
+<li><em>En un proyecto:</em> En los actuadores articulados de un brazo robótico de 6 grados de libertad.</li>
+</ul>
+<p>Segundo mecanismo 
+<img alt="Circuito físico en el protoboard" src="../recursos/imgs/Mecanismo%202.png" /></p>
+<h3 id="segundo-mecanismo-tornillo-sin-fin-y-corona-worm-wormwheel">Segundo mecanismo: Tornillo Sin Fin y Corona (<em>Worm &amp; Wormwheel</em>)</h3>
+<p><img alt="Tornillo sin fin y corona" src="../recursos/imgs/Mecanismo%202.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Conjunto cinemático formado por un tornillo cilíndrico helicoidal (sin fin) que engrana con una rueda dentada o corona circular a $90^\circ$.</li>
+<li><strong>¿Qué transforma?</strong> <strong>Cambio de eje a $90^\circ$ y Alta reducción de Velocidad $\leftrightarrow$ Par:</strong> Transmite movimiento entre dos ejes ortogonales (perpendiculares) no salientes, reduciendo drásticamente la velocidad e incrementando el torque de salida.</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>Depende del número de entradas del tornillo y dientes de la corona.</strong></li>
+<li><em>Fórmula:</em> $i = \frac{N_{\text{corona}}}{N_{\text{entradas}}}$. Para un tornillo de una sola entrada ($N = 1$), si la corona tiene 20 o 30 dientes, la relación es <strong>20 : 1</strong> o <strong>30 : 1</strong> (1 vuelta completa del tornillo avanza solo 1 diente de la rueda).</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Autobloqueante</strong> (debido al pequeño ángulo de hélice del tornillo y la fricción, el tornillo puede mover a la rueda, pero la rueda no puede hacer girar al tornillo).</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En elevadores y ascensores.</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En el carro:</em> En el motor del limpiaparabrisas o en el mecanismo del freno de mano eléctrico.</li>
+<li><em>En un proyecto:</em> En un sistema de elevación para un robot.</li>
+</ul>
+<p>### Tercer mecanismo: Engranaje Intermitente (<em>Intermittent / Mutilated Gear</em>)
+<img alt="Engranaje intermitente" src="../recursos/imgs/Mecanismo%203.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Sistema de dos ruedas donde el disco impulsor principal posee un par de dientes de empuje y un perfil cilíndrico de retención que engrana periódicamente con una rueda de 8 dientes[cite: 6].</li>
+<li><strong>¿Qué transforma?</strong> <strong>Continuo $\leftrightarrow$ Intermitente:</strong> Transforma la rotación continua del disco de entrada en un movimiento pausado o intermitente en la salida[cite: 6].</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>8 : 1</strong>[cite: 6]</li>
+<li><em>Cálculo:</em> Por cada 1 vuelta completa ($360^\circ$) del disco de entrada, la rueda conducida de 8 dientes solo avanza 1 posición ($45^\circ$), lo que equivale a $\frac{1}{8}$ de vuelta[cite: 6].</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Autobloqueante</strong> (mientras no pasa el diente de empuje, el arco cilíndrico liso del disco bloquea físicamente la rueda conducida para evitar que gire libremente)[cite: 6].</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En odómetros analógicos de automóviles clásicos (contadores de kilómetros mecánicos), temporizadores y sistemas de indexado[cite: 6].</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En el carro del proyecto:</em> En un mecanismo de avance por pasos o contador de vueltas integrado al chasis, donde un motor accionado por Arduino mediante comandos enviados por Bluetooth activa un disparo mecánico o avance por posiciones.</li>
+<li><em>En un proyecto propio:</em> En una maquina de croquetas o dulces.</li>
+</ul>
+<p>### Cuarto mecanismo: Tren de Engranajes Epicicloidal o Planetario (<em>Planetary / Epicyclic Gearbox</em>)
+<img alt="Tren epicicloidal" src="../recursos/imgs/Mecanismo%204.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Sistema de engranajes formado por un sol central (engranaje de entrada), varios satélites o planetas (los 3 engranajes intermedios) montados sobre un porta-satélites y una corona exterior con dentado interno.</li>
+<li><strong>¿Qué transforma?</strong> <strong>Velocidad $\leftrightarrow$ Par (Torque):</strong> Permite obtener altas reducciones de velocidad con un incremento proporcional de torque en un espacio extremadamente compacto y coaxial (ejes de entrada y salida alineados).</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>Depende del elemento que se mantenga fijo y de los dientes del sol ($Z_s$) y la corona ($Z_c$).</strong></li>
+<li><em>Fórmula con corona fija:</em> $i = 1 + \frac{Z_c}{Z_s}$. Por ejemplo, si el sol central tiene 12 dientes y la corona exterior tiene 36 dientes, la relación de reducción es $i = 1 + \frac{36}{12} = 4 : 1$ (el sol da 4 vueltas para que el porta-satélites de salida dé 1).</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Reversible</strong> (se puede impulsar tanto desde el sol como desde el porta-satélites o la corona, dependiendo de qué elemento se deje libre o se bloquee).</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En transmisiones automáticas de automóviles, destornilladores eléctricos / taladros inalámbricos y cajas reductoras de motores paso a paso o servomotores.</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En un proyecto personal:</em> En las ruedas de un carrito robot para darle más fuerza de subida</li>
+</ul>
+<h3 id="quinto-mecanismo-rueda-de-ginebra-o-cruz-de-malta-geneva-drive">Quinto mecanismo: Rueda de Ginebra o Cruz de Malta (<em>Geneva Drive</em>)</h3>
+<p><img alt="Rueda de Ginebra" src="../recursos/imgs/Mecanismo%205.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Mecanismo compuesto por una rueda motriz con un pivote (perno) y un arco de bloqueo, y una rueda conducida que tiene varias ranuras radiales (en este caso 6 ranuras) donde entra el pivote.</li>
+<li><strong>¿Qué transforma?</strong> <strong>Continuo $\leftrightarrow$ Intermitente:</strong> Convierte un movimiento de rotación continua en la entrada en un giro intermitente y pausado en la salida.</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>6 : 1</strong></li>
+<li><em>Cálculo:</em> Como la estrella tiene $n = 6$ ranuras, por cada vuelta completa ($360^\circ$) del disco motor, la rueda conducida avanza 1 posición, es decir, $\frac{360^\circ}{6} = 60^\circ$ ($\frac{1}{6}$ de vuelta).</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Autobloqueante</strong> (mientras el pivote no está dentro de una ranura, la superficie circular del disco de entrada encaja con la curvatura de la estrella y la mantiene firmemente bloqueada).</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En proyectores de cine analógicos para avanzar el rollo de película fotograma por fotograma, y en relojes mecánicos.</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En un proyecto personal:</em> En una banda transportadora o mesa giratoria que avance plato por plato para llenar vasos o recipientes automáticamente uno a uno.</li>
+</ul>
+<h3 id="sexto-mecanismo-obturador-de-iris-o-mecanismo-de-diafragma-aperture-iris-shutter">Sexto mecanismo: Obturador de Iris o Mecanismo de Diafragma (<em>Aperture / Iris Shutter</em>)</h3>
+<p><img alt="Obturador de iris" src="../recursos/imgs/Mecanismo%206.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Mecanismo compuesto por una serie de paletas o aspas traslapadas (en este caso 5 paletas) conectadas a un anillo rotatorio de control, el cual las desplaza de forma simultánea para variar el diámetro de una apertura central.</li>
+<li><strong>¿Qué transforma?</strong> <strong>Rotación $\leftrightarrow$ Apertura lineal/radial:</strong> Transforma la rotación angular del anillo exterior en la apertura o cierre concéntrico del paso circular central.</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>No aplica como relación de engranajes ($1 : 1$ angular).</strong></li>
+<li><em>Explicación:</em> Un pequeño giro angular del anillo externo (por ejemplo, $30^\circ$) desplaza proporcionalmente las 5 paletas abriendo o cerrando el diafragma por completo.</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Reversible</strong> (se puede mover girando el anillo accionador o manipulando manualmente una de las pestañas del mecanismo).</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En cámaras fotográficas (control de entrada de luz y profundidad de campo), lentes de proyectores y válvulas de apertura regulable en ventilación industrial.</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En un proyecto personal:</em> En una garra o pinza suave de agarre para un robot, o como un sistema para regular la salida de objetos o luz en una maqueta automatizada.</li>
+</ul>
+<p>### Séptimo mecanismo: Junta Universal o Junta Cardán (<em>Universal Joint</em>)
+<img alt="Junta universal" src="../recursos/imgs/Mecanismo%207.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Acoplamiento mecánico formado por dos horquillas unidas mediante una pieza en forma de cruz (cruceta), lo que permite conectar dos ejes que no están perfectamente alineados.</li>
+<li><strong>¿Qué transforma?</strong> <strong>Transmisión de rotación angular a diferente ángulo:</strong> Transmite movimiento de rotación entre dos ejes que se cruzan formando un ángulo variable.</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>1 : 1 (Nominal / Promedio)</strong></li>
+<li><em>Explicación:</em> Por cada vuelta completa del eje de entrada ($360^\circ$), el eje de salida da exactamente 1 vuelta completa ($360^\circ$), aunque la velocidad instantánea varía levemente si hay desalineación (fluctuación de velocidad angular).</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Reversible</strong> (se puede aplicar movimiento de rotación desde cualquiera de los dos ejes).</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En la flecha o árbol de transmisión de camionetas y autos de tracción trasera, herramientas de extensión articuladas para llaves de dados y columnas de dirección de automóviles.</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En un proyecto personal:</em> En la transmisión de un carrito para transmitir potencia a las ruedas aunque el chasis o la suspensión se muevan en terrenos irregulares.</li>
+</ul>
+<h3 id="octavo-mecanismo-mecanismo-de-espiral-o-leva-en-espiral-spiral">Octavo mecanismo: Mecanismo de Espiral o Leva en Espiral (<em>Spiral</em>)</h3>
+<p><img alt="Mecanismo de espiral" src="../recursos/imgs/Mecanismo%208.png" /></p>
+<ul>
+<li><strong>Descripción:</strong> Mecanismo compuesto por un disco con una canaleta o guía en forma de espiral de Arquímedes y un seguidor (palanca o piñón) que recorre la ranura a medida que el disco gira.</li>
+<li><strong>¿Qué transforma?</strong> <strong>Rotación $\leftrightarrow$ Desplazamiento radial/lineal:</strong> Transforma el movimiento de rotación del disco en un avance lineal progresivo y uniforme del seguidor hacia afuera o hacia el centro.</li>
+<li><strong>Relación de transmisión ($i$):</strong> <strong>No aplica como relación de engranajes ($1 : 1$ por revolución).</strong></li>
+<li><em>Explicación:</em> El avance depende del paso de la espiral ($p$); por cada giro completo ($360^\circ$) del disco, el seguidor se desplaza linealmente una distancia fija equivalente al paso de la espiral.</li>
+<li><strong>¿Reversible o autobloqueante?</strong> <strong>Autobloqueante</strong> (el disco en espiral puede mover y posicionar el seguidor, pero las fuerzas lineales aplicadas sobre el seguidor no pueden hacer girar el disco debido al ángulo de la guía y la fricción).</li>
+<li><strong>¿Dónde lo has visto en la vida real?</strong> En mandriles o chucks de tornos mecánicos (para abrir y cerrar las garras simultáneamente), mecanismos de ajuste en herramientas y calibradores de precisión.</li>
+<li><strong>Aplicación práctica:</strong></li>
+<li><em>En un proyecto personal:</em> En una pinza o sujetador automático para un robot, donde al girar el disco o las garras se cierran o abren de forma centrada para agarrar objetos.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
