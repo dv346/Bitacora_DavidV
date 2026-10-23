@@ -227,4 +227,3 @@ Sesion 10
 
 
 Carro funcional:
-
